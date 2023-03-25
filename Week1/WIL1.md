@@ -98,15 +98,15 @@ Javascript 객체 문법을 따르는 문자 기반의 데이터 포멧으로, '
 **정의**     
 REST 원리를 따르는 시스템      
 REST란 Representational State Transfer의 약자로 자원을 이름으로 구분하여 해당 자원의 상태를 주고받는 모든 것을 의미한다.
-**구성 요소**
+**구성 요소**               
 1. 자원(Resource): 해당 소프트웨어가 관리하는 모든 것(HTTP URI)
 2. 행위(Verb): HTTP Method
 3. 행위의 내용(Representations): HTTP Message Pay Load
-**REST의 특징**
+**REST의 특징**                  
 1. Uniform(유니폼 인터페이스) : URI로 지정한 리소스에 대한 조작 통일, 한정적인 인터페이스로 수행
 2. Stateless(무상태성): 클라이언트의 컨택스트를 서버쪽에 유지하지 않는다.
 3. Cacheable(캐시 처리 가능): HTTP 웹표준 그대로 사용
 4. Self-descriptiveness(자체 표현 구조): REST API만 보고 쉽게 이해 가능
 5. Client-Server Architecture(클라이언트-서버 구조): REST 서버는 API 제공하여 로직 처리 및 저장, 클라이언트는 사용자 인증이나 컨택스트(세션, 로그인 정보) 등을 직접 관리하고 책임짐
-**CRUD**
+**CRUD**                         
 소프트웨어가 가지는 기본적인 데이터 처리 기능을 묶어서 일컫는 말. 생성(Create), 읽기(Read), 갱신(Update), 삭제(Delete), header 정보 조회(HEAD)
